@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Employee Registration Form</title>
     <link href="<c:url value="../../resources/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../../resources/css/employees.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/styles.css">
 </head>
 <body>
 <div class="panel panel-default">
