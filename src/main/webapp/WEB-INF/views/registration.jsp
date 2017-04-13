@@ -7,11 +7,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Employee Registration Form</title>
     <link href="<c:url value="../../resources/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../../resources/css/styles.css">
+    <link href="<c:url value="../../resources/css/registration.css"/>" rel="stylesheet">
 </head>
 <body>
 <div class="panel panel-default">
-    <div class="panel-heading">Registration Form<a href="<c:url value='/list'/>" class="btn btn-primary btn-list">List of All Employees</a></div>
+    <div class="panel-heading">
+        Registration Form
+        <a href="<c:url value='/list'/>" class="btn btn-primary btn-list">
+            List of All Employees
+        </a>
+    </div>
     <form:form method="POST" modelAttribute="employee">
     <div class="regform">
         <form:input type="hidden" path="id" id="id"/>
@@ -56,7 +61,6 @@
                 </c:choose>
             </div>
         </div>
-        </fieldset>
         </form:form>
     </div>
     <script src="<c:url value="/resources/js/jquery-1.12.4.js"/>"></script>

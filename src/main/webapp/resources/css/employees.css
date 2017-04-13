@@ -1,0 +1,25 @@
+.panel.panel-default {
+    width: 80%;
+    margin: auto;
+}
+
+.panel-heading {
+    font-size: 21px;
+}
+
+a.btn.btn-primary {
+    margin-left: 5%;
+}
+
+.panel>.table>tbody:first-child>tr td {
+    padding: 8px 8px 8px 15px;
+}
+
+.panel>.table>tbody:first-child>tr:first-child td {
+    padding: 10px 10px 10px 15px;
+}
+
+tr:first-child{
+    font-weight: bold;
+    background-color: #C6C9C4;
+}

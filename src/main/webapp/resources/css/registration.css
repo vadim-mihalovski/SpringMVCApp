@@ -1,0 +1,42 @@
+.regform {
+    height: 245px;
+}
+
+.form-group {
+    padding: 10px 0;
+}
+
+.form-group .control-label {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#employee fieldset {
+    width: 60%;
+    margin: auto;
+}
+
+.form-group input[type=text], .form-group input[type=number] {
+    width: 40%;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.alert {
+    padding: 5px 13px;
+}
+
+.form-group .alert {
+    padding: 5px 13px;
+    background: transparent;
+    border: none;
+    display: inline-block;
+}
+
+.btn-reg{
+    margin-left: 6% !important;
+}
+
+a.btn.btn-primary.btn-list {
+    margin-left: 57px;
+}

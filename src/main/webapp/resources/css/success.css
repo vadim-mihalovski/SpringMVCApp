@@ -1,0 +1,13 @@
+.alert.alert-success {
+    width: 50%;
+    margin: 1% auto;
+}
+
+.alert-success a.btn.btn-primary {
+    margin-top: -25px;
+    margin-left: 76%;
+}
+
+.alert-success > div {
+    margin-top: 7px;
+}
