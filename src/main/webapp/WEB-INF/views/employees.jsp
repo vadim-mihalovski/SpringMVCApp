@@ -6,11 +6,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>University Enrollments</title>
     <link href="<c:url value="../../resources/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/employees.css">
 </head>
 <body>
 <%--<div class="well">--%>
     <div class="panel panel-default">
-        <div class="panel-heading">List of Employees</div>
+        <div class="panel-heading">List of Employees<a href="<c:url value='/registration' />" class="btn btn-primary btn-reg">Add New Employee</a></div>
         <table class="table table-striped">
             <tr>
                 <td>Name</td>
@@ -34,7 +35,7 @@
             </c:forEach>
         </table>
     </div>
-    <a href="<c:url value='/registration' />" class="btn btn-primary">Add New Employee</a>
+
 <%--</div>--%>
 <script src="<c:url value="/resources/js/jquery-1.12.4.js"/>"></script>
 <script src="<c:url value="../../resources/bootstrap/js/bootstrap.min.js"/>"></script>
